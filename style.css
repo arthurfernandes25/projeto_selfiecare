@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    color: #161616;
+}
+
+
+/* === HEADER === */
+nav{
+    height: 94px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-left: 69px;
+    padding-right: 71px;
+    /* justify-content: */
+    /* align-items: */
+}
+
+.icones {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icones img{
+    width: 16%;
+}
+
+#container {
+    height: 94px;
+    border-bottom: 0.2px solid #A5A1A1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 69px;
+    padding-right: 71px;
+}
+
+/* === MAIN === */
+main {
+    height: 100%;
+        
+}
+
+.base_container{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 65px;
+    gap: 30px;
+    justify-content: space-between;
+    padding: 57px 71px 100px 69px;
+
+}
+
+.card_produto{
+    font-size: 22px;
+    line-height: 26px;
+    width:fit-content;
+    
+}
+
+.descricao{
+    margin-bottom: 11px;
+}
+
+.card_produto span{
+    color: #5CA720;
+    font-weight: 700;
+
+}
+
+/* === FOOTER === */
+
+footer{
+    height: 348px;
+    background: #F9F9F9;
+}
+#contato_container{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    height: 216px;
+    justify-content: space-between;
+    
+    
+    padding: 40px 70px 70px 77px; 
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;    
+    
+}
+
+.contato a {
+    height: auto;
+
+    overflow-y: hidden;
+
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin-bottom:5px;
+}
+
+#input {
+    
+    width: 397px;
+    height: 54px;
+    padding: 10px;
+    background: #FFFFFF;
+    border: 0.5px solid #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+
+    font-family: 'Lato';
+
+    font-weight: 600;
+    font-size: 15px;
+}
+
+#input::-webkit-input-placeholder{
+    color:#A8A4A4;
+    font-style: bold;
+}
+
+#botao {
+    width: 152px;
+    height: 54px;
+
+    background: #5CA720;
+    border: 1px solid #5CA720;
+    border-radius: 0px 5px 5px 0px;
+
+    font-weight: 800;
+    font-size: 15px;
+    color: white;
+}
