@@ -148,3 +148,23 @@ label{
     font-size: 15px;
     color: white;
 }
+#redes_container{
+    border-top: 0.2px solid #A5A1A1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 130px;
+    padding: 0 75px;
+    
+}
+.redes_sociais{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.pagamento{
+    display: flex;
+    align-items:center;
+    gap: 20px;
+    
+}
